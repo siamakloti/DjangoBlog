@@ -5,3 +5,8 @@ from django.contrib import admin
 
 class OwnTrackLogsAdmin(admin.ModelAdmin):
     pass
+
+# Register new user
+
+class OwnTrackLogsUser(User.ModelUser):
+    pass
